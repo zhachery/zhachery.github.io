@@ -136,7 +136,7 @@ sidebar:
   display: post
 
   # Sidebar padding in pixels.
-  padding: 18
+  padding: 10
   # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
   offset: 12
 
@@ -145,7 +145,7 @@ avatar:
   # Replace the default image and set the url here.
   url: /images/avatar.png
   # If true, the avatar will be displayed in circle.
-  rounded: true
+  rounded: false
   # If true, the avatar will be rotated with the cursor.
   rotated: false
 

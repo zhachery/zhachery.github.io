@@ -27,7 +27,7 @@ hexo init
 hexo可以帮助我们将markdown文件转化为静态资源文件，而Github Pages则可以将静态资源文件托管。
 
 创建一个github仓库，仓库名必须为`<用户名>.github.io`。进入仓库，在`Setting-Pages`设置`Build and deployment`项为`Github Actions`，让其执行流水线任务。
-![alt text](/images/2024042701.png)
+![alt text](/images/202404270.png)
 
 进入本地博客的根目录，在.github文件夹中创建workflows文件夹，创建文件`page.yml`设定流水线任务，文件内容如下：
 ```yml
