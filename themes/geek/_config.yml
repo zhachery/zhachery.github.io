@@ -6,7 +6,7 @@ favicon: /favicon.ico
 
 menu:
   首页: /
-  归档: /
+  # 归档: /
   标签: /tags
   关于: /about
   Github: https://github.com/zhachery
