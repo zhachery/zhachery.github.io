@@ -6,4 +6,4 @@ tags: test
 
 这个文件测试图片的显示
 
-![alt text](logo.png)
+![alt text](./logo.png)
