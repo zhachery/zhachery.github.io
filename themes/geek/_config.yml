@@ -1,13 +1,13 @@
-logo_title: 心向光明
+logo_title: You can slow down.
 
 style: black
 
-favicon: /pig.ico
+favicon: /favicon.ico
 
 menu:
-  作品: /project
-  域名: /domain
-  友联: /links
+  首页: /
+  归档: /archive
+  标签: /tag
   关于: /about
   Github: https://github.com/zhachery
 
