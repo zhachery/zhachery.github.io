@@ -6,7 +6,7 @@ tags: Hexo
 
 ## 本地环境
 
-这部分可以参照Hexo官网的概述部分
+以下自行安装，可以参照[Hexo官网](https://hexo.io/zh-cn/docs/)
 
 - Git：用来推送代码，文章需要在本地编写，然后推送到git仓库
 - Node.js：Hexo是基于Node.js的，所以需要安装
