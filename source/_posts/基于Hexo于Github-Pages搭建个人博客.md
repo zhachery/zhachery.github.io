@@ -1,5 +1,5 @@
 ---
-title: 基于Hexo于Github Pages搭建个人博客
+title: 基于Hexo与Github Pages搭建个人博客
 date: 2024-04-27 20:31:25
 tags: Hexo
 ---
@@ -111,10 +111,10 @@ git push -u origin master  # 注意分支要对应，如果不对应了可能会
 
 ### 插入图片不显示
 
-首先在博客根目录下执行命令安装图片保存插件
+很多网上的教程安装的是hexo-asset-image，但是这个插件太老了，而且有bug，尽管github仓库已经修改了[bug](https://github.com/xcodebuild/hexo-asset-image/issues/47)，但是我npm安装的仍然是旧版本，应该是很久没有维护了，所以不建议安装这个插件了。偶然间发现了另外一个插件：
 
 ```bash
-npm install hexo-asset-image --save
+npm install hexo-image-link --save
 ```
 
 修改根目录下的_config.yml文件：
@@ -125,15 +125,7 @@ post_asset_folder: true  # false改为true
 
 这样当使用`hexo new post <title>`时会在_post目录下创建一个同名文件夹，将所要引用的图片保存在该文件夹下，在正文中直接引用时图片的路径为`<当前md文件名-无后缀>/<图片文件名-带后缀>`。
 
-但是hexo-asset-image旧版本有bug，可能导致图片路径有问题而无法显示，如图：
-
-![alt text](基于Hexo于Github-Pages搭建个人博客/3.png)
-
-图片的路径包含`.io`或者`.cn`，这是由_config.yml中url地址决定的。回到博客的根目录，找到`/node_modules/hexo-asset-image/index.js`，[修改第24行即可](https://github.com/hexojs/hexo/issues/4492)。
-
-![alt text](基于Hexo于Github-Pages搭建个人博客/4.png)
-
-我使用VsCode作为markdown的编辑器，推荐一个插件：Paste Image，然后点击设置。
+我使用VsCode作为markdown的编辑器，推荐一个VsCode的插件：Paste Image，然后点击设置。
 
 ![paste image](基于Hexo于Github-Pages搭建个人博客/2024-04-27-21-18-16.png)
 
@@ -146,3 +138,6 @@ post_asset_folder: true  # false改为true
 ### 主题
 
 Hexo可以选择自己喜欢的主题，可以在官网下载主题，并更换。
+
+- [NexT](https://github.com/next-theme/hexo-theme-next)
+- [Geek](https://github.com/sanjinhub/hexo-theme-geek?tab=readme-ov-file)
