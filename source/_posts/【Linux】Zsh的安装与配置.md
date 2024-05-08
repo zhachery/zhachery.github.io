@@ -13,7 +13,7 @@ tags: Linux
 ```bash
 cat /etc/shells
 ```
-
+<!-- more -->
 如果已经有了`/bin/zsh`，那么只需要修改默认的shell即可：
 
 ```bash
