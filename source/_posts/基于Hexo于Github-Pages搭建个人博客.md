@@ -2,6 +2,7 @@
 title: 基于Hexo与Github Pages搭建个人博客
 date: 2024-04-27 20:31:25
 tags: Hexo
+categories: 个人博客
 ---
 
 ## 本地环境

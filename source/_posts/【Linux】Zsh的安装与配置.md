@@ -2,6 +2,7 @@
 title: 【Linux】Zsh的安装与配置
 date: 2024-05-08 15:12:41
 tags: Linux
+categories: Linux
 ---
 
 本文使用的系统是Ubuntu，默认的shell是bash，但是非常建议大家试一下zsh，用了就回不去了。
@@ -13,7 +14,7 @@ tags: Linux
 ```bash
 cat /etc/shells
 ```
-<!-- more -->
+
 如果已经有了`/bin/zsh`，那么只需要修改默认的shell即可：
 
 ```bash

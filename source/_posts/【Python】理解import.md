@@ -2,6 +2,7 @@
 title: 【Python】理解import
 date: 2024-04-29 17:48:57
 tags: Python
+categories: 学习记录
 ---
 
 在写Python项目时，经常会遇到类似于导包失败的情况，例如
