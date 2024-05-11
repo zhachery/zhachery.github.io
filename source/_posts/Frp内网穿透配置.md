@@ -89,6 +89,12 @@ remotePort = 8080                               # 暴露服务的公网入口
 error unmarshaling JSON: while decoding JSON: json: cannot unmarshal string into Go value of type v1.ServerConfig
 ```
 
+### 配置HTTPS访问
+
+HTTPS的配置需要申请证书，这就需要一个域名才行了，可以直接Google低价域名，有些商家的低价域名也就10元左右一年，例如[dynadot](https://www.dynadot.com/)，等到期了直接换一个，我们也不是建站，续费是比较贵的。
+
+假设你已经有了域名，我们使用[acme.sh](https://github.com/acmesh-official/acme.sh)来申请域名。TODO
+
 ## 原理
 
 TODO
