@@ -21,7 +21,7 @@ mkdir <blog-folder>  # 为你的博客创建一个文件夹
 cd <blod-folder>
 hexo init
 ```
-<!-- more -->
+
 此时可以使用`hexo new post "hello"`命令来创建一个新的文章，这个文章会出现在`source/_posts`文件夹中，使用命令`hexo generate`可以生成静态资源文件，根目录下会出现`public/`文件夹。然后在命令行中输入如下命令本地测试：
 
 ```bash
