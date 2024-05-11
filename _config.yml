@@ -11,6 +11,7 @@ author: zhuka
 language: zh-CN
 timezone: 'Asia/Shanghai'
 avatar: /custom/images/avatar.png
+favicon: /custom/images/favicon.ico
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'

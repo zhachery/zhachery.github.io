@@ -1,8 +1,8 @@
 ---
 title: Pycharm打开本地项目，不显示目录
 date: 2024-05-08 20:39:43
-tags: Debug
-categories: Debug
+tags: PyCharm
+categories: 问题与解决
 ---
 
 今天git远程拉了一个项目到本地，使用PyCharm打开时发现目录树是这样的：
