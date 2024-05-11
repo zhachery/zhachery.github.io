@@ -142,3 +142,6 @@ Hexo可以选择自己喜欢的主题，可以在官网下载主题，并更换�
 
 - [NexT](https://github.com/next-theme/hexo-theme-next)
 - [Geek](https://github.com/sanjinhub/hexo-theme-geek?tab=readme-ov-file)
+- [Stellar](https://xaoxuu.com/wiki/stellar/)
+
+[Stellar](https://xaoxuu.com/wiki/stellar/)主题整体的风格是简洁，但是功能却齐全（包括分类、标签、专栏和搜索），其深色模式也不错，所以我最终选择使用这个主题，该主题的具体使用可以参照发布者的对应wiki，比较详细。
