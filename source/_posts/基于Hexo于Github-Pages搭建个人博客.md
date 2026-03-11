@@ -145,3 +145,11 @@ Hexo可以选择自己喜欢的主题，可以在官网下载主题，并更换�
 - [Stellar](https://xaoxuu.com/wiki/stellar/)
 
 [Stellar](https://xaoxuu.com/wiki/stellar/)主题整体的风格是简洁，但是功能却齐全（包括分类、标签、专栏和搜索），其深色模式也不错，所以我最终选择使用这个主题，该主题的具体使用可以参照发布者的对应wiki，比较详细。
+
+### hexo常用命令
+
+1、创建文章
+
+使用命令：`hexo new [layout] <title>`来创建文章，hexo共有三种layout：post、page和draft，不同的布局在不同的文件夹下生成文件
+![1](基于Hexo于Github-Pages搭建个人博客/2026-03-11-23-13-22.png)
+可以使用命令`hexo new [layout] --path ai/rag <title>`，会在source/ai目录下生成rag.me
